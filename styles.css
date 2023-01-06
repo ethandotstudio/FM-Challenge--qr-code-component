@@ -1,3 +1,37 @@
+body {
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  font-family: "Outfit";
+  min-width: calc(320rem / 16);
+}
+
+main {
+  background-color: white;
+  padding: 16px 16px 40px 16px;
+  text-align: center;
+  border-radius: calc(20rem / 16);
+  max-width: calc(320rem / 16);
+}
+
+img {
+  border-radius: calc(10rem / 16);
+}
+
+h1 {
+  font-size: calc(22rem / 16);
+  padding: 24px 0 16px 0;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+p {
+  font-size: calc(15rem / 16);
+  color: var(--grayish-blue);
+}
+
 :root {
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
